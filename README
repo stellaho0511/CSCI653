@@ -1,5 +1,4 @@
-# CSCI653 — Scalable & Communication-Efficient Distributed Vision Training
-
+# CSCI653 — Scalable & Communication-Efficient Distributed Vision Training - Doing with Changmook Oh
 A project that applies **hybrid parallelism** (DP × TP/PP) and **communication optimizations** (overlap, gradient compression, optimizer sharding) to efficiently train large-scale vision models (e.g., ViT) on multi-GPU/multi-node systems, and compares the approaches.
 
 ---
@@ -28,5 +27,4 @@ A project that applies **hybrid parallelism** (DP × TP/PP) and **communication 
 - **Minimal accuracy degradation** (small Δ top-1) and convergence speed comparison.
 - Artifacts: `metrics.csv` + plots (throughput/efficiency/comm-share/accuracy).
 
-
-# Doing with Changmook Oh
+---
